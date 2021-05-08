@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  background-color: #eee;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 60px;
+}
+
+main p {
+  margin: 5px 0;
+  font-style: italic;
+}
+
+main p em {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #7c34e9;
+  height: 5vh;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+
+footer a:visited {
+  color: #ccc;
+}
